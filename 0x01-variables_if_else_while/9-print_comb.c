@@ -12,19 +12,16 @@
  *
 int main(void)
 {
-int num;
-
+	int num;																				
 	for (num = 0; num <= 9; num++)
-	{
-	        putcher((num % 10) + '0');
-		if (num == 9)
-		        continue;
+	{											putcher((num % 10) + '0');
+	if (num == 9)										continue;
 
-			putcher(',');
-			putcher(' ');
+	putcher(',');
+	putcher(' ');
 	}
 
-        putcher('\n');
+	putcher('\n');
 
-        return (0);
+	return (0);
 }	
