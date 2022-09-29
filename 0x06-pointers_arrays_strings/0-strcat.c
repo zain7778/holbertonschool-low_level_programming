@@ -3,7 +3,7 @@
  * Auth: Brennan D Baraban
  */
 
-#include "main.h"
+#include "holberton.h"
 
 /**
  * strcat - concatenates the string pointed to by @src, including the terminating
